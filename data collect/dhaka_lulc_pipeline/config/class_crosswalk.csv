@@ -1,0 +1,33 @@
+﻿source_dataset,source_code,source_label,target_code,target_class
+ESA_WorldCover_v200,10,Tree cover,2,Vegetation
+ESA_WorldCover_v200,20,Shrubland,2,Vegetation
+ESA_WorldCover_v200,30,Grassland,2,Vegetation
+ESA_WorldCover_v200,40,Cropland,3,Cropland
+ESA_WorldCover_v200,50,Built-up,1,Built-up
+ESA_WorldCover_v200,60,Bare/sparse vegetation,6,Bare Land
+ESA_WorldCover_v200,80,Permanent water bodies,4,Water Bodies
+ESA_WorldCover_v200,90,Herbaceous wetland,5,Wetlands
+ESA_WorldCover_v200,95,Mangroves,5,Wetlands
+ESRI_10m_Annual,1,Water,4,Water Bodies
+ESRI_10m_Annual,2,Trees,2,Vegetation
+ESRI_10m_Annual,4,Flooded vegetation,5,Wetlands
+ESRI_10m_Annual,5,Crops,3,Cropland
+ESRI_10m_Annual,7,Built Area,1,Built-up
+ESRI_10m_Annual,8,Bare Ground,6,Bare Land
+ESRI_10m_Annual,11,Rangeland,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,1,Evergreen needleleaf forest,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,2,Evergreen broadleaf forest,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,3,Deciduous needleleaf forest,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,4,Deciduous broadleaf forest,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,5,Mixed forest,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,6,Closed shrublands,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,7,Open shrublands,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,8,Woody savannas,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,9,Savannas,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,10,Grasslands,2,Vegetation
+MODIS_MCD12Q1_LC_Type1,11,Permanent wetlands,5,Wetlands
+MODIS_MCD12Q1_LC_Type1,12,Croplands,3,Cropland
+MODIS_MCD12Q1_LC_Type1,13,Urban and built-up,1,Built-up
+MODIS_MCD12Q1_LC_Type1,14,Cropland/natural vegetation mosaic,3,Cropland
+MODIS_MCD12Q1_LC_Type1,16,Barren or sparsely vegetated,6,Bare Land
+MODIS_MCD12Q1_LC_Type1,17,Water Bodies,4,Water Bodies

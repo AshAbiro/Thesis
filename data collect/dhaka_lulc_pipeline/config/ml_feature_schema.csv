@@ -1,0 +1,18 @@
+﻿feature_name,data_type,description
+grid_id,string,Unique 1 km grid identifier
+year,int,Observation year
+frac_built,float,Fraction of built-up area in 1 km grid
+frac_vegetation,float,Fraction of vegetation area in 1 km grid
+frac_cropland,float,Fraction of cropland area in 1 km grid
+frac_water,float,Fraction of water-body area in 1 km grid
+frac_wetland,float,Fraction of wetland area in 1 km grid
+frac_bare,float,Fraction of bare-land area in 1 km grid
+dominant_class,int,Class id with maximum fraction (1-6)
+oh_built,int,One-hot dominant class for built-up
+oh_vegetation,int,One-hot dominant class for vegetation
+oh_cropland,int,One-hot dominant class for cropland
+oh_water,int,One-hot dominant class for water
+oh_wetland,int,One-hot dominant class for wetland
+oh_bare,int,One-hot dominant class for bare land
+mixed_flag,int,1 if dominant fraction < 0.5 else 0
+valid_obs_ratio,float,Valid source-pixel ratio in each 1 km grid

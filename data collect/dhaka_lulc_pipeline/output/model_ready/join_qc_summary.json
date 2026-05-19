@@ -1,0 +1,20 @@
+{
+  "lulc_rows": 11683,
+  "lst_rows": 11683,
+  "merged_rows": 11683,
+  "matched_rows": 11683,
+  "trainable_rows": 11658,
+  "coverage_ratio": 1.0,
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "target_col": "lst_c",
+  "target_mean_c": 34.79462033325334,
+  "target_std_c": 3.497017973840087
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run satellite_collect1_0",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/satellite_collect1_0.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--year",
+        "2024",
+        "--project",
+        "thesis-01-496711"
+      ]
+    }
+  ]
+}

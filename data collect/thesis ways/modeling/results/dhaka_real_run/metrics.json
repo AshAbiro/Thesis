@@ -1,0 +1,57 @@
+{
+  "generated": "2026-04-22 21:24:16",
+  "dataset": "C:\\Users\\abira\\chrome\\Thesis\\data collect\\dhaka_lulc_pipeline\\output\\model_ready\\combined_lulc_heat_model_table.csv",
+  "target": "lst_c",
+  "features": [
+    "year",
+    "longitude",
+    "latitude",
+    "frac_built",
+    "frac_vegetation",
+    "frac_cropland",
+    "frac_water",
+    "frac_wetland",
+    "frac_bare",
+    "ndvi"
+  ],
+  "rows_total": 11658,
+  "rows_used": 11658,
+  "rows_dropped_missing": 0,
+  "train_rows": 9326,
+  "test_rows": 2332,
+  "best_model": "RandomForest",
+  "metrics": [
+    {
+      "model": "RandomForest",
+      "rmse": 1.3064964791799658,
+      "mae": 0.9154953499886378,
+      "r2": 0.8628505837010284,
+      "pbias": -0.019582468546211443,
+      "bias": -0.006821578497088917
+    },
+    {
+      "model": "ANN",
+      "rmse": 1.4867672257112923,
+      "mae": 1.0586857868801032,
+      "r2": 0.8223916277366479,
+      "pbias": -0.09234690921893074,
+      "bias": -0.032169166451813606
+    },
+    {
+      "model": "SVM",
+      "rmse": 2.221349318507725,
+      "mae": 1.4789774163083296,
+      "r2": 0.60352921190555,
+      "pbias": 0.14923893692198342,
+      "bias": 0.05198757861568833
+    },
+    {
+      "model": "LinearRegression",
+      "rmse": 2.6830904231782595,
+      "mae": 1.9643990588642959,
+      "r2": 0.42157361589721587,
+      "pbias": -0.08744230120239818,
+      "bias": -0.030460639842756376
+    }
+  ]
+}

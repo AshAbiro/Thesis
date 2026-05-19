@@ -1,0 +1,63 @@
+2026-05-18 04:07:58,116 INFO Initializing Earth Engine
+2026-05-18 04:08:03,326 INFO Loading Dhaka boundary
+2026-05-18 04:08:03,328 INFO Creating 1000 m grid
+2026-05-18 04:08:03,330 INFO Calculating static morphology features
+2026-05-18 04:08:03,333 INFO Building Landsat LST composite for 2017 winter
+2026-05-18 04:08:03,339 INFO Calculating reference LST and SUHI for 2017 winter
+2026-05-18 04:08:03,339 INFO Calculating distance-to-water for 2017 winter
+2026-05-18 04:08:03,339 INFO Aggregating raster variables to grid for 2017 winter
+2026-05-18 04:08:03,339 INFO Calculating LULC6 percentages for 2017
+2026-05-18 04:08:07,028 INFO Started Drive export dhaka_urban_heat_grid_2017_winter_1000m: X3QK6LZSIHARZZY2TMLL6DZZ
+2026-05-18 04:08:07,028 INFO Started validation export dhaka_urban_heat_validation_2017_winter_1000m: L7IEVG76A7VGVFSY3VPVD356
+2026-05-18 04:08:07,028 INFO Building Landsat LST composite for 2018 winter
+2026-05-18 04:08:07,048 INFO Calculating reference LST and SUHI for 2018 winter
+2026-05-18 04:08:07,048 INFO Calculating distance-to-water for 2018 winter
+2026-05-18 04:08:07,048 INFO Aggregating raster variables to grid for 2018 winter
+2026-05-18 04:08:07,048 INFO Calculating LULC6 percentages for 2018
+2026-05-18 04:08:10,689 INFO Started Drive export dhaka_urban_heat_grid_2018_winter_1000m: CFVEFU6WCY2RDT2F7H3FXMZF
+2026-05-18 04:08:10,689 INFO Started validation export dhaka_urban_heat_validation_2018_winter_1000m: KOXVVKPYF77GA6ONFNBDQI73
+2026-05-18 04:08:10,689 INFO Building Landsat LST composite for 2019 winter
+2026-05-18 04:08:10,699 INFO Calculating reference LST and SUHI for 2019 winter
+2026-05-18 04:08:10,708 INFO Calculating distance-to-water for 2019 winter
+2026-05-18 04:08:10,708 INFO Aggregating raster variables to grid for 2019 winter
+2026-05-18 04:08:10,709 INFO Calculating LULC6 percentages for 2019
+2026-05-18 04:08:14,238 INFO Started Drive export dhaka_urban_heat_grid_2019_winter_1000m: 45C3HFSLFSI5FGUACCBSHU64
+2026-05-18 04:08:14,238 INFO Started validation export dhaka_urban_heat_validation_2019_winter_1000m: S2AEAG3WBIDVYRQTXRORMENJ
+2026-05-18 04:08:14,238 INFO Building Landsat LST composite for 2020 winter
+2026-05-18 04:08:14,251 INFO Calculating reference LST and SUHI for 2020 winter
+2026-05-18 04:08:14,251 INFO Calculating distance-to-water for 2020 winter
+2026-05-18 04:08:14,251 INFO Aggregating raster variables to grid for 2020 winter
+2026-05-18 04:08:14,254 INFO Calculating LULC6 percentages for 2020
+2026-05-18 04:08:17,095 INFO Started Drive export dhaka_urban_heat_grid_2020_winter_1000m: SHGRCPF4QDUO3GPTZIWI27GN
+2026-05-18 04:08:17,095 INFO Started validation export dhaka_urban_heat_validation_2020_winter_1000m: 4YD7KJ5BH2N6QILS7YP4JC4U
+2026-05-18 04:08:17,095 INFO Building Landsat LST composite for 2021 winter
+2026-05-18 04:08:17,105 INFO Calculating reference LST and SUHI for 2021 winter
+2026-05-18 04:08:17,106 INFO Calculating distance-to-water for 2021 winter
+2026-05-18 04:08:17,107 INFO Aggregating raster variables to grid for 2021 winter
+2026-05-18 04:08:17,109 INFO Calculating LULC6 percentages for 2021
+2026-05-18 04:08:20,576 INFO Started Drive export dhaka_urban_heat_grid_2021_winter_1000m: DDWGJ7UMGLYOHNWUWJ36C2QP
+2026-05-18 04:08:20,576 INFO Started validation export dhaka_urban_heat_validation_2021_winter_1000m: X7MNS4GOP36ZNVM5G7E6TIGM
+2026-05-18 04:08:20,576 INFO Building Landsat LST composite for 2022 winter
+2026-05-18 04:08:20,587 INFO Calculating reference LST and SUHI for 2022 winter
+2026-05-18 04:08:20,587 INFO Calculating distance-to-water for 2022 winter
+2026-05-18 04:08:20,589 INFO Aggregating raster variables to grid for 2022 winter
+2026-05-18 04:08:20,591 INFO Calculating LULC6 percentages for 2022
+2026-05-18 04:08:24,876 INFO Started Drive export dhaka_urban_heat_grid_2022_winter_1000m: 2HOGEVKUH22WBOQMSE7ZLWFS
+2026-05-18 04:08:24,876 INFO Started validation export dhaka_urban_heat_validation_2022_winter_1000m: GWXTDP54JDDSHSBALZYLTKGS
+2026-05-18 04:08:24,876 INFO Building Landsat LST composite for 2023 winter
+2026-05-18 04:08:24,888 INFO Calculating reference LST and SUHI for 2023 winter
+2026-05-18 04:08:24,888 INFO Calculating distance-to-water for 2023 winter
+2026-05-18 04:08:24,889 INFO Aggregating raster variables to grid for 2023 winter
+2026-05-18 04:08:24,892 INFO Calculating LULC6 percentages for 2023
+2026-05-18 04:08:28,573 INFO Started Drive export dhaka_urban_heat_grid_2023_winter_1000m: 4ZOFXH3VEVGFV3LTYSODYB3I
+2026-05-18 04:08:28,573 INFO Started validation export dhaka_urban_heat_validation_2023_winter_1000m: BCTLJULQVGKUIJ4NL4NOTGIJ
+2026-05-18 04:08:28,574 INFO Building Landsat LST composite for 2024 winter
+2026-05-18 04:08:28,582 INFO Calculating reference LST and SUHI for 2024 winter
+2026-05-18 04:08:28,582 INFO Calculating distance-to-water for 2024 winter
+2026-05-18 04:08:28,583 INFO Aggregating raster variables to grid for 2024 winter
+2026-05-18 04:08:28,584 INFO Calculating LULC6 percentages for 2024
+2026-05-18 04:08:31,300 INFO Started Drive export dhaka_urban_heat_grid_2024_winter_1000m: VAQQ5UDX4SZFWSDOB7BSUZFK
+2026-05-18 04:08:31,300 INFO Started validation export dhaka_urban_heat_validation_2024_winter_1000m: QCCGULZFIUIQOYPWABACO27F
+2026-05-18 04:08:37,931 INFO Started final joined table export dhaka_urban_heat_grid_2017_2024_winter_1000m: YB6RYA7OCI4FYCDTXZUHRPIW
+2026-05-18 04:08:37,931 INFO Started final validation export dhaka_urban_heat_validation_2017_2024_winter_1000m: ODRQLSQQM2OWBAW7IN623FW6
+2026-05-18 04:08:37,931 INFO Earth Engine exports are asynchronous. Check the Earth Engine Tasks tab or Drive folder.

@@ -1,0 +1,14 @@
+2026-05-18 04:04:56,583 INFO Initializing Earth Engine
+2026-05-18 04:05:01,858 INFO Loading Dhaka boundary
+2026-05-18 04:05:01,862 INFO Creating 1000 m grid
+2026-05-18 04:05:01,864 INFO Calculating static morphology features
+2026-05-18 04:05:01,868 INFO Building Landsat LST composite for 2024 pre_monsoon
+2026-05-18 04:05:01,878 INFO Calculating reference LST and SUHI for 2024 pre_monsoon
+2026-05-18 04:05:01,878 INFO Calculating distance-to-water for 2024 pre_monsoon
+2026-05-18 04:05:01,879 INFO Aggregating raster variables to grid for 2024 pre_monsoon
+2026-05-18 04:05:01,881 INFO Calculating LULC6 percentages for 2024
+2026-05-18 04:05:04,898 INFO Started Drive export dhaka_urban_heat_grid_2024_pre_monsoon_1000m: AM56XFRT6ZBNJKSVNCHYGJ2Z
+2026-05-18 04:05:04,898 INFO Started validation export dhaka_urban_heat_validation_2024_pre_monsoon_1000m: OQJTJZRGXUTW5FN4U64MH7TY
+2026-05-18 04:05:08,388 INFO Started final joined table export dhaka_urban_heat_grid_2024_2024_pre_monsoon_1000m: EJ654SW6P4XPSCX3W7S4JVK7
+2026-05-18 04:05:08,388 INFO Started final validation export dhaka_urban_heat_validation_2024_2024_pre_monsoon_1000m: P6TNQS6KLGDBZELU73H5KLMQ
+2026-05-18 04:05:08,388 INFO Earth Engine exports are asynchronous. Check the Earth Engine Tasks tab or Drive folder.

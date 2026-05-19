@@ -1,0 +1,63 @@
+2026-05-18 04:01:07,016 INFO Initializing Earth Engine
+2026-05-18 04:01:11,744 INFO Loading Dhaka boundary
+2026-05-18 04:01:11,744 INFO Creating 1000 m grid
+2026-05-18 04:01:11,746 INFO Calculating static morphology features
+2026-05-18 04:01:11,749 INFO Building Landsat LST composite for 2017 pre_monsoon
+2026-05-18 04:01:11,759 INFO Calculating reference LST and SUHI for 2017 pre_monsoon
+2026-05-18 04:01:11,759 INFO Calculating distance-to-water for 2017 pre_monsoon
+2026-05-18 04:01:11,761 INFO Aggregating raster variables to grid for 2017 pre_monsoon
+2026-05-18 04:01:11,761 INFO Calculating LULC6 percentages for 2017
+2026-05-18 04:01:14,708 INFO Started Drive export dhaka_urban_heat_grid_2017_pre_monsoon_1000m: PVHEL46PVLC7V22WTS2R7SSG
+2026-05-18 04:01:14,708 INFO Started validation export dhaka_urban_heat_validation_2017_pre_monsoon_1000m: SFQIVX3567I3FPF7BR4ULFZC
+2026-05-18 04:01:14,709 INFO Building Landsat LST composite for 2018 pre_monsoon
+2026-05-18 04:01:14,735 INFO Calculating reference LST and SUHI for 2018 pre_monsoon
+2026-05-18 04:01:14,737 INFO Calculating distance-to-water for 2018 pre_monsoon
+2026-05-18 04:01:14,741 INFO Aggregating raster variables to grid for 2018 pre_monsoon
+2026-05-18 04:01:14,750 INFO Calculating LULC6 percentages for 2018
+2026-05-18 04:01:22,000 INFO Started Drive export dhaka_urban_heat_grid_2018_pre_monsoon_1000m: FRABTEJPGVB4PGPBPF7HNBHY
+2026-05-18 04:01:22,002 INFO Started validation export dhaka_urban_heat_validation_2018_pre_monsoon_1000m: ZXFWXEFGVXWK6MFW6GXRBZAI
+2026-05-18 04:01:22,002 INFO Building Landsat LST composite for 2019 pre_monsoon
+2026-05-18 04:01:22,023 INFO Calculating reference LST and SUHI for 2019 pre_monsoon
+2026-05-18 04:01:22,023 INFO Calculating distance-to-water for 2019 pre_monsoon
+2026-05-18 04:01:22,025 INFO Aggregating raster variables to grid for 2019 pre_monsoon
+2026-05-18 04:01:22,027 INFO Calculating LULC6 percentages for 2019
+2026-05-18 04:01:25,664 INFO Started Drive export dhaka_urban_heat_grid_2019_pre_monsoon_1000m: 5KXRFS7CD7JPSH4VVXWMMBHZ
+2026-05-18 04:01:25,664 INFO Started validation export dhaka_urban_heat_validation_2019_pre_monsoon_1000m: 62EYGGWSMS73RV2CHMB5KGOS
+2026-05-18 04:01:25,664 INFO Building Landsat LST composite for 2020 pre_monsoon
+2026-05-18 04:01:25,678 INFO Calculating reference LST and SUHI for 2020 pre_monsoon
+2026-05-18 04:01:25,679 INFO Calculating distance-to-water for 2020 pre_monsoon
+2026-05-18 04:01:25,680 INFO Aggregating raster variables to grid for 2020 pre_monsoon
+2026-05-18 04:01:25,684 INFO Calculating LULC6 percentages for 2020
+2026-05-18 04:01:29,618 INFO Started Drive export dhaka_urban_heat_grid_2020_pre_monsoon_1000m: N3RLUMTEXY6RJPGVWAELQI77
+2026-05-18 04:01:29,618 INFO Started validation export dhaka_urban_heat_validation_2020_pre_monsoon_1000m: QCH6BQ7NLBCK2FOM73WV7V6G
+2026-05-18 04:01:29,618 INFO Building Landsat LST composite for 2021 pre_monsoon
+2026-05-18 04:01:29,638 INFO Calculating reference LST and SUHI for 2021 pre_monsoon
+2026-05-18 04:01:29,638 INFO Calculating distance-to-water for 2021 pre_monsoon
+2026-05-18 04:01:29,640 INFO Aggregating raster variables to grid for 2021 pre_monsoon
+2026-05-18 04:01:29,640 INFO Calculating LULC6 percentages for 2021
+2026-05-18 04:01:31,691 INFO Started Drive export dhaka_urban_heat_grid_2021_pre_monsoon_1000m: 2VPMMUTNQBRXG2RUIWEYZQ62
+2026-05-18 04:01:31,691 INFO Started validation export dhaka_urban_heat_validation_2021_pre_monsoon_1000m: 6LNDTBZCYKEWSHK6ZQ57TWM4
+2026-05-18 04:01:31,691 INFO Building Landsat LST composite for 2022 pre_monsoon
+2026-05-18 04:01:31,718 INFO Calculating reference LST and SUHI for 2022 pre_monsoon
+2026-05-18 04:01:31,718 INFO Calculating distance-to-water for 2022 pre_monsoon
+2026-05-18 04:01:31,720 INFO Aggregating raster variables to grid for 2022 pre_monsoon
+2026-05-18 04:01:31,721 INFO Calculating LULC6 percentages for 2022
+2026-05-18 04:01:35,501 INFO Started Drive export dhaka_urban_heat_grid_2022_pre_monsoon_1000m: QQKRE46IVDQGCUJHBDFNQMOZ
+2026-05-18 04:01:35,502 INFO Started validation export dhaka_urban_heat_validation_2022_pre_monsoon_1000m: WK4U4GQZO4IR3VRKBSFSRI4D
+2026-05-18 04:01:35,503 INFO Building Landsat LST composite for 2023 pre_monsoon
+2026-05-18 04:01:35,545 INFO Calculating reference LST and SUHI for 2023 pre_monsoon
+2026-05-18 04:01:35,547 INFO Calculating distance-to-water for 2023 pre_monsoon
+2026-05-18 04:01:35,551 INFO Aggregating raster variables to grid for 2023 pre_monsoon
+2026-05-18 04:01:35,559 INFO Calculating LULC6 percentages for 2023
+2026-05-18 04:01:38,417 INFO Started Drive export dhaka_urban_heat_grid_2023_pre_monsoon_1000m: HLJATGCAEPVCCPGJ6AMKO44U
+2026-05-18 04:01:38,418 INFO Started validation export dhaka_urban_heat_validation_2023_pre_monsoon_1000m: R7IZAX3LRJUH62XKZW34H4OA
+2026-05-18 04:01:38,418 INFO Building Landsat LST composite for 2024 pre_monsoon
+2026-05-18 04:01:38,441 INFO Calculating reference LST and SUHI for 2024 pre_monsoon
+2026-05-18 04:01:38,441 INFO Calculating distance-to-water for 2024 pre_monsoon
+2026-05-18 04:01:38,443 INFO Aggregating raster variables to grid for 2024 pre_monsoon
+2026-05-18 04:01:38,447 INFO Calculating LULC6 percentages for 2024
+2026-05-18 04:01:40,430 INFO Started Drive export dhaka_urban_heat_grid_2024_pre_monsoon_1000m: VD754MKZKJ26NO63765FMYUB
+2026-05-18 04:01:40,430 INFO Started validation export dhaka_urban_heat_validation_2024_pre_monsoon_1000m: 66D45ZER32WSD7MYGRVU2LBI
+2026-05-18 04:01:49,768 INFO Started final joined table export dhaka_urban_heat_grid_2017_2024_pre_monsoon_1000m: ZDWFA7OTC4SPW5SBO2GI73RH
+2026-05-18 04:01:49,768 INFO Started final validation export dhaka_urban_heat_validation_2017_2024_pre_monsoon_1000m: VAOSXEQY745QZZHHONPVEEQH
+2026-05-18 04:01:49,768 INFO Earth Engine exports are asynchronous. Check the Earth Engine Tasks tab or Drive folder.

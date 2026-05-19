@@ -1,0 +1,29 @@
+{
+  "rows": 11683,
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "fraction_sum_mean": 0.9970041941282205,
+  "fraction_sum_std": 0.05465424683417974,
+  "fraction_sum_max_abs_error": 1.0,
+  "fraction_sum_out_of_tolerance_rows": 0,
+  "missing_rows_any_required_col": 0,
+  "dominant_mismatch_rows": 0,
+  "dominant_class_distribution": {
+    "1": 6120,
+    "2": 279,
+    "3": 4301,
+    "4": 882,
+    "5": 41,
+    "6": 60
+  },
+  "parquet_written": false
+}
+
+
