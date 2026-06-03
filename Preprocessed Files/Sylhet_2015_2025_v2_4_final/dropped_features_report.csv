@@ -1,0 +1,53 @@
+feature,stage,reason
+lst_k_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+lst_c_min,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+no2_tropospheric_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+co_column_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+aerosol_index_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+sar_vv_vh_ratio,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+ndwi_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+ibi_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+ui_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+impervious_frac_ghsl,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+lc_builtup_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+building_count,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+building_area_m2,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+builtup_surface_m2,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+dewpoint_temp_K_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+temp_2m_K_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+wind_u_ms_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+wind_v_ms_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+lc_shrub_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+lc_grass_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+lc_bare_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+lc_wetland_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+dw_built_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+dw_veg_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+dw_water_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+dw_dominant_class,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+cell_area_m2,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+ntl_avg_radiance_sum,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+chirps_precip_mm_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+chirps_rainy_days,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+total_precip_m,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+elevation_m_max,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+aspect_deg_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+hillshade_mean,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+water_recurrence_pct,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+water_seasonality_months,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+s5p_available,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+s1_available,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+landsat_scene_count,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+population_count,hard_drop,"Definitionally redundant, leakage-prone, scale-dependent, or intentionally excluded before modeling."
+ndmi_mean,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+evi_mean,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+savi_mean,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+fvc_mean,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+building_density_km2,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+dist_to_any_water_m,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+elevation_m_mean,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+slope_deg_mean,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+population_density,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+sar_vh_mean,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+sin_season,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.
+ndvi_mean_spatial_lag,feature_selection_spearman,Removed by high absolute Spearman correlation pruning.

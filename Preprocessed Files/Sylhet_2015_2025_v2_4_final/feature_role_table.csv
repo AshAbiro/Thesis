@@ -1,0 +1,105 @@
+column,role,in_config_a,in_config_b,notes
+albedo_mean,config_a_feature,True,True,
+bsi_mean,config_a_feature,True,True,
+building_area_ratio,config_a_feature,True,True,
+building_area_ratio_spatial_lag,config_a_feature,True,True,
+chirps_precip_mm,config_a_feature,True,True,
+cos_season,config_a_feature,True,True,
+dist_to_city_centre_m,config_a_feature,True,True,
+dist_to_perm_water_m,config_a_feature,True,True,
+elevation_m_mean_spatial_lag,config_a_feature,True,True,
+impervious_pct,config_a_feature,True,True,
+impervious_pct_lag1,config_a_feature,True,True,
+impervious_pct_lag4,config_a_feature,True,True,
+impervious_pct_spatial_lag,config_a_feature,True,True,
+lc_cropland_pct,config_a_feature,True,True,
+lc_trees_pct,config_a_feature,True,True,
+lc_water_pct,config_a_feature,True,True,
+mean_building_size_m2,config_a_feature,True,True,
+mndwi_mean,config_a_feature,True,True,
+ndbi_mean,config_a_feature,True,True,
+ndvi_max,config_a_feature,True,True,
+ndvi_mean,config_a_feature,True,True,
+ndvi_mean_lag1,config_a_feature,True,True,
+ndvi_mean_lag4,config_a_feature,True,True,
+ntl_avg_radiance_mean,config_a_feature,True,True,
+relative_humidity_pct,config_a_feature,True,True,
+sar_vv_mean,config_a_feature,True,True,
+solar_radiation,config_a_feature,True,True,
+tpi_mean,config_a_feature,True,True,
+water_occurrence_pct,config_a_feature,True,True,
+wind_speed_ms,config_a_feature,True,True,
+lst_c_mean_lag1,config_b_only_target_lag,False,True,Predictive/nowcasting only; do not use for causal interpretation.
+lst_c_mean_lag4,config_b_only_target_lag,False,True,Predictive/nowcasting only; do not use for causal interpretation.
+emissivity_mean,config_b_only_thermal,False,True,Same-season thermal/emissivity predictor; predictive/nowcasting only.
+modis_lst_day_mean,config_b_only_thermal,False,True,Same-season thermal/emissivity predictor; predictive/nowcasting only.
+modis_lst_diurnal_range,config_b_only_thermal,False,True,Same-season thermal/emissivity predictor; predictive/nowcasting only.
+modis_lst_night_mean,config_b_only_thermal,False,True,Same-season thermal/emissivity predictor; predictive/nowcasting only.
+building_density_km2,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+dist_to_any_water_m,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+elevation_m_mean,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+evi_mean,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+fvc_mean,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+ndmi_mean,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+ndvi_mean_spatial_lag,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+population_density,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+sar_vh_mean,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+savi_mean,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+sin_season,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+slope_deg_mean,dropped_spearman,False,False,Removed by Spearman correlation pruning.
+aerosol_index_mean,hard_drop,False,False,Dropped before feature selection.
+aspect_deg_mean,hard_drop,False,False,Dropped before feature selection.
+building_area_m2,hard_drop,False,False,Dropped before feature selection.
+building_count,hard_drop,False,False,Dropped before feature selection.
+builtup_surface_m2,hard_drop,False,False,Dropped before feature selection.
+cell_area_m2,hard_drop,False,False,Dropped before feature selection.
+chirps_precip_mm_mean,hard_drop,False,False,Dropped before feature selection.
+chirps_rainy_days,hard_drop,False,False,Dropped before feature selection.
+co_column_mean,hard_drop,False,False,Dropped before feature selection.
+dewpoint_temp_K_mean,hard_drop,False,False,Dropped before feature selection.
+dw_built_pct,hard_drop,False,False,Dropped before feature selection.
+dw_dominant_class,hard_drop,False,False,Dropped before feature selection.
+dw_veg_pct,hard_drop,False,False,Dropped before feature selection.
+dw_water_pct,hard_drop,False,False,Dropped before feature selection.
+elevation_m_max,hard_drop,False,False,Dropped before feature selection.
+hillshade_mean,hard_drop,False,False,Dropped before feature selection.
+ibi_mean,hard_drop,False,False,Dropped before feature selection.
+impervious_frac_ghsl,hard_drop,False,False,Dropped before feature selection.
+landsat_scene_count,hard_drop,False,False,Dropped before feature selection.
+lc_bare_pct,hard_drop,False,False,Dropped before feature selection.
+lc_builtup_pct,hard_drop,False,False,Dropped before feature selection.
+lc_grass_pct,hard_drop,False,False,Dropped before feature selection.
+lc_shrub_pct,hard_drop,False,False,Dropped before feature selection.
+lc_wetland_pct,hard_drop,False,False,Dropped before feature selection.
+lst_c_min,hard_drop,False,False,Dropped before feature selection.
+lst_k_mean,hard_drop,False,False,Dropped before feature selection.
+ndwi_mean,hard_drop,False,False,Dropped before feature selection.
+no2_tropospheric_mean,hard_drop,False,False,Dropped before feature selection.
+ntl_avg_radiance_sum,hard_drop,False,False,Dropped before feature selection.
+population_count,hard_drop,False,False,Dropped before feature selection.
+s1_available,hard_drop,False,False,Dropped before feature selection.
+s5p_available,hard_drop,False,False,Dropped before feature selection.
+sar_vv_vh_ratio,hard_drop,False,False,Dropped before feature selection.
+temp_2m_K_mean,hard_drop,False,False,Dropped before feature selection.
+total_precip_m,hard_drop,False,False,Dropped before feature selection.
+ui_mean,hard_drop,False,False,Dropped before feature selection.
+water_recurrence_pct,hard_drop,False,False,Dropped before feature selection.
+water_seasonality_months,hard_drop,False,False,Dropped before feature selection.
+wind_u_ms_mean,hard_drop,False,False,Dropped before feature selection.
+wind_v_ms_mean,hard_drop,False,False,Dropped before feature selection.
+district,id_context,False,False,"Kept for joining, grouping, validation, and mapping; not a model feature."
+division,id_context,False,False,"Kept for joining, grouping, validation, and mapping; not a model feature."
+grid_id,id_context,False,False,"Kept for joining, grouping, validation, and mapping; not a model feature."
+grid_x,id_context,False,False,"Kept for joining, grouping, validation, and mapping; not a model feature."
+grid_y,id_context,False,False,"Kept for joining, grouping, validation, and mapping; not a model feature."
+season,id_context,False,False,"Kept for joining, grouping, validation, and mapping; not a model feature."
+year,id_context,False,False,"Kept for joining, grouping, validation, and mapping; not a model feature."
+lst_background_du,leakage_excluded,False,False,Excluded from Config A/B feature lists.
+reference_lst_derived,leakage_excluded,False,False,Excluded from Config A/B feature lists.
+suhi_derived,leakage_excluded,False,False,Excluded from Config A/B feature lists.
+suhi_du,leakage_excluded,False,False,Excluded from Config A/B feature lists.
+lst_c_max,passthrough_not_feature; leakage_excluded,False,False,Context/secondary target column; not a predictor.; Excluded from Config A/B feature lists.
+reference_lst_mean,passthrough_not_feature; leakage_excluded,False,False,Context/secondary target column; not a predictor.; Excluded from Config A/B feature lists.
+suhi_max,passthrough_not_feature; leakage_excluded,False,False,Context/secondary target column; not a predictor.; Excluded from Config A/B feature lists.
+suhi_mean,passthrough_not_feature; leakage_excluded,False,False,Context/secondary target column; not a predictor.; Excluded from Config A/B feature lists.
+lst_c_mean,target; leakage_excluded,False,False,"Primary supervised target, never a predictor.; Excluded from Config A/B feature lists."

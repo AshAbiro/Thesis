@@ -1,0 +1,24 @@
+# Local environments and editor state
+.venv/
+.vscode/
+.claude/
+__pycache__/
+*.py[cod]
+
+# Raw GEE exports are local data artifacts, not normal Git files.
+Data From GEE/
+
+# Preprocessed CSV outputs are very large. Keep only lightweight run reports
+# and metadata in Git; store model-ready/preprocessed tables outside normal Git
+# or in a dedicated data/LFS release workflow.
+Preprocessed Files/**
+!Preprocessed Files/
+!Preprocessed Files/README.md
+!Preprocessed Files/*/
+!Preprocessed Files/*/preprocessing_report.json
+!Preprocessed Files/*/preprocessing_report.md
+!Preprocessed Files/*/preprocessing_meta.json
+!Preprocessed Files/*/preprocessing_metadata.json
+!Preprocessed Files/*/missingness_report.csv
+!Preprocessed Files/*/dropped_features_report.csv
+!Preprocessed Files/*/feature_role_table.csv
