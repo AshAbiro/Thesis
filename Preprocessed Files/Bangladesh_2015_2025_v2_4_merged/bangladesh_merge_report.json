@@ -1,0 +1,151 @@
+{
+  "merge_name": "Bangladesh_2015_2025_v2_4_merged",
+  "source_division_folders": [
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Barisal_2015_2025_v2_4_final",
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Chittagong_2015_2025_v2_4_final",
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Dhaka_2015_2025_v2_4_final",
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Khulna_2015_2025_v2_4_final",
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Mymensingh_2015_2025_v2_4_final",
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Rajshahi_2015_2025_v2_4_final",
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Rangpur_2015_2025_v2_4_final",
+    "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Sylhet_2015_2025_v2_4_final"
+  ],
+  "rows": {
+    "combined": 7315601,
+    "by_split": {
+      "test": 674524,
+      "train": 5981624,
+      "val": 659453
+    },
+    "by_division": {
+      "Barisal": 452673,
+      "Chittagong": 2500017,
+      "Dhaka": 890131,
+      "Khulna": 893180,
+      "Mymensingh": 570595,
+      "Rajshahi": 794387,
+      "Rangpur": 694982,
+      "Sylhet": 519636
+    }
+  },
+  "dataset_identity": {
+    "divisions": [
+      "Barisal",
+      "Chittagong",
+      "Dhaka",
+      "Khulna",
+      "Mymensingh",
+      "Rajshahi",
+      "Rangpur",
+      "Sylhet"
+    ],
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "seasons": [
+      "monsoon",
+      "post_monsoon",
+      "pre_monsoon",
+      "winter"
+    ]
+  },
+  "quality_checks": {
+    "source_duplicate_panel_keys_total": 0,
+    "null_lst_c_mean": 0,
+    "zero_lst_c_mean": 0,
+    "duplicate_key_note": "Duplicate keys are validated per source division report using division/district/grid_id/year/season."
+  },
+  "feature_sets": {
+    "target": "lst_c_mean",
+    "context_columns": [
+      "division",
+      "district",
+      "grid_id",
+      "grid_x",
+      "grid_y",
+      "year",
+      "season"
+    ],
+    "model_prefix_columns": [
+      "split",
+      "lst_c_mean"
+    ],
+    "config_a_common_features": [
+      "ndvi_mean",
+      "ndbi_mean",
+      "mndwi_mean",
+      "albedo_mean",
+      "impervious_pct",
+      "lc_trees_pct",
+      "lc_cropland_pct",
+      "lc_water_pct",
+      "mean_building_size_m2",
+      "dist_to_perm_water_m",
+      "tpi_mean",
+      "ntl_avg_radiance_mean",
+      "wind_speed_ms",
+      "relative_humidity_pct",
+      "chirps_precip_mm",
+      "dist_to_city_centre_m",
+      "cos_season",
+      "ndvi_mean_lag1",
+      "ndvi_mean_lag4",
+      "impervious_pct_lag1",
+      "impervious_pct_lag4",
+      "impervious_pct_spatial_lag",
+      "building_area_ratio_spatial_lag"
+    ],
+    "config_b_common_features": [
+      "ndvi_mean",
+      "ndbi_mean",
+      "mndwi_mean",
+      "albedo_mean",
+      "impervious_pct",
+      "lc_trees_pct",
+      "lc_cropland_pct",
+      "lc_water_pct",
+      "mean_building_size_m2",
+      "dist_to_perm_water_m",
+      "tpi_mean",
+      "ntl_avg_radiance_mean",
+      "wind_speed_ms",
+      "relative_humidity_pct",
+      "chirps_precip_mm",
+      "dist_to_city_centre_m",
+      "cos_season",
+      "ndvi_mean_lag1",
+      "ndvi_mean_lag4",
+      "impervious_pct_lag1",
+      "impervious_pct_lag4",
+      "impervious_pct_spatial_lag",
+      "building_area_ratio_spatial_lag",
+      "lst_c_mean_lag1",
+      "lst_c_mean_lag4",
+      "modis_lst_day_mean",
+      "modis_lst_night_mean",
+      "modis_lst_diurnal_range",
+      "emissivity_mean"
+    ],
+    "config_a_note": "Common Config-A features present in every division run; use for driver/interpretation models.",
+    "config_b_note": "Common Config-B features present in every division run; use for predictive/forecasting models.",
+    "scaling_note": "These merged tables are not pre-scaled. Fit any scaler on the Bangladesh train split inside the modeling workflow to avoid mixing per-division scalers."
+  },
+  "outputs": {
+    "preprocessed_combined.csv.gz": "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Bangladesh_2015_2025_v2_4_merged\\preprocessed_combined.csv.gz",
+    "model_ready_config_a_common.csv.gz": "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Bangladesh_2015_2025_v2_4_merged\\model_ready_config_a_common.csv.gz",
+    "model_ready_config_b_common.csv.gz": "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Bangladesh_2015_2025_v2_4_merged\\model_ready_config_b_common.csv.gz",
+    "bangladesh_feature_sets.json": "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Bangladesh_2015_2025_v2_4_merged\\bangladesh_feature_sets.json",
+    "bangladesh_merge_report.json": "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Bangladesh_2015_2025_v2_4_merged\\bangladesh_merge_report.json",
+    "bangladesh_merge_report.md": "C:\\Users\\abira\\Projects\\Thesis\\Preprocessed Files\\Bangladesh_2015_2025_v2_4_merged\\bangladesh_merge_report.md"
+  }
+}

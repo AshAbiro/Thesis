@@ -22,3 +22,7 @@ Preprocessed Files/**
 !Preprocessed Files/*/missingness_report.csv
 !Preprocessed Files/*/dropped_features_report.csv
 !Preprocessed Files/*/feature_role_table.csv
+!Preprocessed Files/Bangladesh_2015_2025_v2_4_merged/
+!Preprocessed Files/Bangladesh_2015_2025_v2_4_merged/bangladesh_feature_sets.json
+!Preprocessed Files/Bangladesh_2015_2025_v2_4_merged/bangladesh_merge_report.json
+!Preprocessed Files/Bangladesh_2015_2025_v2_4_merged/bangladesh_merge_report.md
